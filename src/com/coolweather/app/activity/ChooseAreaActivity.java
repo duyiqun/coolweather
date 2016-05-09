@@ -63,6 +63,11 @@ public class ChooseAreaActivity extends Activity {
 	 * 当前选中的级别
 	 */
 	private int currentLevel;
+	
+	/**
+	*  是否从WeatherActivity 中跳转过来。
+	*/
+	private boolean isFromWeatherActivity;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
